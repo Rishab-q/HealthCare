@@ -122,12 +122,6 @@ Authorization: Bearer <your_token>
 - Doctors can be assigned to patients.
 - All data is stored in PostgreSQL.
 
----
 
-## 📄 License
-
-This project is for educational purposes and is not licensed for commercial use.
-
----
 
 Happy Coding! 💙
