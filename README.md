@@ -30,7 +30,7 @@ This project is a backend system for a healthcare application built with **Djang
 
 1. **Clone the repository**  
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Rishab-q/HealthCare.git
    cd <project-directory>
    ```
 
