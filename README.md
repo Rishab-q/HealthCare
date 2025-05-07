@@ -37,7 +37,7 @@ This project is a backend system for a healthcare application built with **Djang
 2. **Create a virtual environment**  
    ```bash
    python -m venv env
-   source env/bin/activate  # or `env\Scripts\activate` on Windows
+   source env/bin/activate  for Linux or `env\Scripts\activate` on Windows
    ```
 
 3. **Install dependencies**  
@@ -48,13 +48,10 @@ This project is a backend system for a healthcare application built with **Djang
 4. **Set up PostgreSQL database and configure `.env`**  
    Create a `.env` file:
    ```env
-   SECRET_KEY=your_secret_key
-   DEBUG=True
-   DB_NAME=your_db_name
+   DJANGO_SECRET_KEY=your_secret_key
    DB_USER=your_db_user
    DB_PASSWORD=your_db_password
-   DB_HOST=localhost
-   DB_PORT=5432
+   
    ```
 
 5. **Apply migrations**  
